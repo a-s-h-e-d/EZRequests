@@ -1,0 +1,16 @@
+TYPE_POST
+# this is a comment
+// this is also a comment
+
+HEADERS
+{
+"this is a header": "this is that headers data"
+}
+
+DATA
+{
+"this is data": 123
+"data json": {"hope this works": 40}
+}
+
+URL "https://jsonplaceholder.typicode.com/posts/1"
