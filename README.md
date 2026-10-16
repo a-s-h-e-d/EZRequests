@@ -75,7 +75,6 @@ The **EZ Requests editor** opens with line numbers and a status bar.
 2. Save the file. **Run** shows an error if the file has never been saved.
 3. Click **Run**. The editor saves again, compiles the file, sends the request, and opens the visualizer.
 
-> **Note:** The Save As dialog defaults to `.txt`. Type the `.ezq` extension yourself, or Main.py will reject the file as an invalid extension.
 
 ### Running a file without the editor
 
@@ -129,7 +128,7 @@ HEADERS
 
 DATA
 {
-"name": "sam",
+"name": "giancarlo",
 "score": 9.5
 }
 
@@ -211,8 +210,7 @@ How values are sent:
 Lines starting with `#` or `//` are ignored, as are blank lines. Comments must be on their own line. Don't put one at the end of a code line.
 
 ### Current limitations
-
-- Curly braces inside string values (e.g. `"note": "}"`) can confuse block detection.
+- No compile or editor level syntax check
 - Only GET and POST are supported.
 - Only one request per file.
 
