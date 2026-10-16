@@ -129,7 +129,7 @@ HEADERS
 
 DATA
 {
-"name": "sam",
+"name": "giancarlo",
 "score": 9.5
 }
 
